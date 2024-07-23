@@ -1,9 +1,7 @@
-# Challenge Project: Find Your Hat
+# Hat Finder Game
 
-## Overview
+This project is a simple browser-based game where the player navigates through a field to find a hat while avoiding holes. The game is implemented in JavaScript and updates the game board dynamically on a webpage.
 
-This project is slightly different than others you have encountered thus far on Codecademy. Instead of a step-by-step tutorial, this project contains a series of open-ended requirements which describe the project you’ll be building. There are many possible ways to correctly fulfill all of these requirements, and you should expect to use the internet, Codecademy, and other resources when you encounter a problem that you cannot easily solve.
+## Project Description
 
-## Project Goals
-
-In this project, you’ll be building an interactive terminal game. The scenario is that the player has lost their hat in a field full of holes, and they must navigate back to it without falling down one of the holes or stepping outside of the field.
+The Hat Finder Game involves a player starting at a random position on a field. The objective is to navigate through the field and find the hat (`🎩`) while avoiding holes (`O`). The player's path is marked with `*` and the rest of the field is filled with `░`. The game provides an option to play in a harder mode where additional holes are added to the field.
